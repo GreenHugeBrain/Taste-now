@@ -1,0 +1,304 @@
+h2 {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 30px;
+}
+
+h2 span {
+  color: #F72D57;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 187px;
+}
+
+.title {
+  width: 219px;
+  text-align: center;
+  align-content: center;
+  height: 50px;
+  background-color: #F72D57;
+}
+
+.title p {
+  font-size: 24px;
+  color: white;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.section {
+  margin-top: 20px;
+  background-color: white;
+  height: 328px;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+}
+
+.texts {
+  display: grid;
+  justify-items: center;
+  align-self: center;
+  gap: 20px;
+}
+
+.texts button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background: #F72D57;
+  color: white;
+  border-radius: 5px;
+}
+
+
+section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.products {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 565px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ad {
+  display: grid;
+  justify-content: center;
+  align-items: end;
+  height: 40vw;
+}
+
+.container {
+  background-color: #F72D57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 324px;
+
+}
+
+.container .img img {
+  width: 400px;
+}
+
+.adtext {
+  color: white;
+}
+
+.dontmiss {
+  font-weight: bolder;
+  font-size: xx-large;
+
+}
+
+.dontmisschilder {
+  width: 550px;
+}
+
+.tastenowad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100vw;
+  gap: 300px;
+  margin-top: 150px;
+}
+
+.delivery {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.delivery span {
+  color: #F72D57;
+}
+
+.deliverydesc {
+  width: 500px;
+
+}
+
+
+.tastenowtext button {
+  padding: 7px 15px;
+  background-color: #F72D57;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-top: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.want{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work{
+  display: grid;
+  justify-items: center;
+}
+
+.worktext{
+  font-weight: bold;
+  font-size: xx-large;
+  width: 500px;
+}
+
+.worktext span{
+  color: #F72D57;
+}
+
+.workdesc{
+  width: 500px;
+  color: rgb(15, 15, 15);
+  margin-top: 10px;
+}
+
+.work button{
+  padding: 10px 15px;
+  background-color: #F72D57;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+@media screen and (max-width: 1024px) {
+  .title{
+    width: 188px;
+  }
+  .texts img{
+    width: 150px;
+  }
+
+  .ad{
+    height: 56vw;
+  }
+
+  .tastenowimg img{
+    width: 326px  ;
+    position: relative;
+    left: 40px  ;
+  }
+
+  .tastenowad{
+    gap: 149px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .title{
+    width: 151px;
+  }
+
+  .container .img img {
+    width: 250px;
+  }
+  
+
+  .dontmiss{
+    font-size: 24px;
+  }
+
+
+  .tastenowad{
+    gap: 0px;
+  }
+
+  .deliverydesc{
+    width: 426px;
+  }
+
+  .want img{
+    width: 272px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .sections{
+    display: grid;
+  }
+
+  .want{
+    height: 700px;
+  }
+
+
+  .tastenowad{
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    height: 400px;
+}
+
+.tastenowimg{
+  left: 100px;
+}
+
+.ad{
+  height: 2000px;
+}
+
+.container{
+  background-color: #F72D57;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 410px;
+  text-align: center;
+}
+
+.dontmisschilder{
+  width: 423px;
+  display: block;
+}
+}
+
+
+@media screen and (max-width: 325px) {
+  .dontmiss{
+    font-size: 16px;
+  }
+
+  .dontmisschilder{
+    width: 300px;
+  }
+
+  .tastenowtext{
+    text-align: center;
+  }
+
+  .tastenowimg p{
+    font-size: large;
+  }
+
+  .want{
+    display: grid;
+    justify-items: center;
+    margin-top: 350px;
+  }
+}

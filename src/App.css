@@ -1,3 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: #F5F5F5;
+  height: fit-content;
+  overflow-x: hidden;
+}
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +50,4 @@
     transform: rotate(360deg);
   }
 }
+
